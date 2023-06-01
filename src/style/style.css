@@ -1,0 +1,107 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+.home{
+  background-image: url(../img/mountains-universe-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.oUniverso{
+  background-image: url(../img/mountains-universe-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Exploracao{
+  background-image: url(../img/mountains-universe-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 32px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  opacity: 50%;
+}
+
+.NavCurrentPage{
+  opacity: 1;
+}
+
+
+.containerHome {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+ .box {
+  width: 300px;
+  height: 300px;
+  }
+
+  .containerOther {
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+    
+    }
+  .containerOther .box {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 150px;
+    }
+
+
+  #myButton {
+    background-image: url('../svg/button_houverOFF.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 35px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
