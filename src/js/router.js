@@ -23,5 +23,4 @@ export class Router {
       document.querySelector('#app').innerHTML = html
     })
   }
-
 }
